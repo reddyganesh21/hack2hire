@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link href="style.css" rel="stylesheet" />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap"
+      rel="stylesheet"
+    />
+
+    <title>Book Order</title>
+  </head>
+  <body>
+    <header>
+      <h1>Book Order - Customer Screen</h1>
+      <form>
+        <label>Search Stock</label>
+        <select name="Search_Stock">
+          <option>DBS-1</option>
+          <option>DBS-2</option>
+          <option>DBS-3</option>
+          <option>DBS-4</option>
+          <option>DBS-5</option>
+        </select>
+        <label>Order Type</label>
+        <select name="Order_Type" class="select">
+          <option>Market</option>
+          <option>limit</option>
+        </select>
+        <label>Price</label>
+        <input type="number" class="price" name="price" disabled="disabled" />
+        <label>Quantity</label>
+        <input type="number" name="Quantity" />
+        <input type="submit" class="submit" value="submit" />
+      </form>
+    </header>
+    <script src="user.js"></script>
+    <script src="admin.js"></script>
+  </body>
+</html>

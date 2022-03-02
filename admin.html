@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <title>ADMIN 3</title>
+  </head>
+  <body>
+    <h1 style="color: Red">Admin Screen-3</h1>
+    <input
+      type="button"
+      class="openmarket"
+      style="background-color: green"
+      value="Open Market"
+    />
+    <input
+      type="button"
+      class="closemarket"
+      style="background-color: red"
+      value="Close Market"
+    />
+    <form>
+      <label> Select Stocks</label>
+      <select>
+        <option value="DBS">DBS</option>
+        <option value="DBS1">DBS1</option>
+        <option value="DBS2">DBS2</option>
+        <option value="DBS3">DBS3</option>
+      </select>
+      <input type="date" />
+      <button type="submit" name="btn">From date</button>
+      <input type="date" />
+      <button type="submit" name="btn">To date</button>
+    </form>
+    <input type="button" style="background-color: blue" value="Show Orders" />
+    <table border="5" width="50%" cellpadding="4" cellspacing="3">
+      <tr bgcolor="red">
+        <th>s.no</th>
+        <th>Stocks name</th>
+        <th>Order qty</th>
+        <th>Order type</th>
+        <th>Executed qty</th>
+        <th>Price</th>
+        <th>Order Status</th>
+        <th>Order date</th>
+      </tr>
+      <tr bgcolor="pink">
+        <th></th>
+        <th></th>
+        <th></th>
+        <th></th>
+        <th></th>
+        <th></th>
+        <th></th>
+        <th></th>
+      </tr>
+      <tr bgcolor="pink">
+        <th></th>
+        <th></th>
+        <th></th>
+        <th></th>
+        <th></th>
+        <th></th>
+        <th></th>
+        <th></th>
+      </tr>
+      <tr bgcolor="pink">
+        <th></th>
+        <th></th>
+        <th></th>
+        <th></th>
+        <th></th>
+        <th></th>
+        <th></th>
+        <th></th>
+      </tr>
+      <tr bgcolor="pink">
+        <th></th>
+        <th></th>
+        <th></th>
+        <th></th>
+        <th></th>
+        <th></th>
+        <th></th>
+        <th></th>
+      </tr>
+      <tr align="CENTER"></tr>
+    </table>
+    <table border="2" width="12%" cellpadding="2" cellspacing="3">
+      <tr bgcolor="red">
+        <th>Execution Qty</th>
+      </tr>
+      <tr>
+        <th>
+          <table border="5" width="12%" cellpadding="5" cellspacing="3"></table>
+        </th>
+      </tr>
+    </table>
+    <table border="2" width="12%" cellpadding="6">
+      <tr bgcolor="red">
+        <th>Execution Price</th>
+      </tr>
+      <tr>
+        <th></th>
+        <th></th>
+      </tr>
+    </table>
+    <input type="button" value="Execute Orders" />
+    <script src="admin.js"></script>
+  </body>
+</html>
